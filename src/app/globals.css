@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+.font-override-alepholon .alepholon {
+  font-family: var(--font-alepholon), sans-serif;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -22,5 +26,19 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
+
+@keyframes movingGradient {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 55% 55%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+
