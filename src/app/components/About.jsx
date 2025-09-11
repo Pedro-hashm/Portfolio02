@@ -1,5 +1,5 @@
 import { Inter } from "next/font/google";
-import { Github, Linkedin } from 'lucide-react';
+import { Github, Linkedin, Mail } from 'lucide-react';
 
 
 const inter = Inter({
@@ -53,7 +53,58 @@ const About = ({language}) => {
                         
                     </div>
 
-                    <p className="text-center text-xl break-words px-3 pb-3">askdjaslkdjaklsdjaklsdjklasdjklasjdklasjdklajsdkljasdasdasdasdasdas</p>
+                    <p className="text-center text-[1.1rem] break-words px-12 pb-3">
+
+                        I’m a fullstack developer with a strong focus on building responsive and efficient web applications using React.
+
+                    </p>
+
+                    <p className="text-center text-[1.1rem] break-words px-12 pb-3">
+
+                        Even with a relatively short time in the field, I've gained solid experience in tackling real-world challenges, writing clean code, and ensuring high-quality user experiences.
+
+                    </p>
+
+                    <p className="text-center text-[1.1rem] break-words px-12 pb-3">
+
+                        What I love most about development is the process of solving unique problems—creativity and persistence are key, and I bring both to every project.
+
+                    </p>
+
+                    <p className="text-center text-[1.1rem] break-words px-12 pb-3">
+
+                        I’ve also worked on streamlining deployment processes and maintaining strong collaboration within teams to deliver projects efficiently.
+
+                    </p>
+
+                    <p className="text-center text-[1.1rem] break-words px-12 pb-3">
+
+                        Every day is an opportunity to learn something new, and I thrive on that.
+
+                    </p>
+
+                    <p className="text-center text-[1.1rem] break-words px-12 pb-3">
+
+                        Whether it’s refining my skills or exploring new technologies, I’m always looking for ways to grow and improve.
+
+                    </p>
+
+                    <p className="text-center text-[1.1rem] break-words px-12 pb-3">
+
+                        If you're looking for someone who’s ready to contribute to your projects and take on new challenges, I’d love to connect!
+
+                    </p>
+
+                    <p className="text-center font-bold text-[1.1rem] break-words px-12 pb-3">
+
+                        I would be very happy if you contacted me
+
+                    </p>
+
+                    <div className="flex flex-row gap-2 justify-center">
+                        <Mail className="w-6 flex items-center justify-center p-[0.1rem]" />
+                        <a href="https://github.com/Pedro-hashm" target="_blank" rel="noopener noreferrer" className="text-white">Contact-me</a>
+                    </div>
                 </div>
             </div>
 
