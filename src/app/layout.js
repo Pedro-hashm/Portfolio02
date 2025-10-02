@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 const alepholon = localFont({
-  src: '../../public/fonts/alepholon.woff2',
+  src: 'assets/alepholon.woff2',
   variable: '--font-alepholon',
 });
 
