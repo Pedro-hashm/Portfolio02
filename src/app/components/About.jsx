@@ -34,7 +34,7 @@ const About = ({language}) => {
                     w-0 h-0
                     border-l-[20px] border-r-[20px] border-b-[20px]
                     border-l-transparent border-r-transparent border-b-[#2a2730]
-                    md:border-l-0 md:border-b-0
+                    md:border-l-0
                     md:border-t-[20px] md:border-b-[20px] md:border-r-[20px]
                     md:border-t-transparent md:border-b-transparent md:border-r-[#2a2730]
                 "
