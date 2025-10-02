@@ -14,6 +14,7 @@ export default function Home() {
   return (
       <main className="bg-[#271f31]"> {/* Remova o min-h-screen e o flex-col daqui por enquanto */}
         <div>
+
           <title> Pedro Vieira | Full Stack Developer </title>
 
           <Header language={language} setLanguage={setLanguage}/>
