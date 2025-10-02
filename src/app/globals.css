@@ -1,7 +1,15 @@
 @import "tailwindcss";
 
-.font-override-alepholon .alepholon {
-  font-family: var(--font-alepholon), sans-serif;
+@font-face {
+  font-family: 'Alepholon';
+  src: url('/fonts/alepholon.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+.alepholon {
+  font-family: 'Alepholon', var(--font-geist-sans), sans-serif;
 }
 
 :root {
