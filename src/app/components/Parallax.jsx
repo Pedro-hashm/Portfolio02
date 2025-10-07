@@ -6,7 +6,7 @@ import { CheckCircle } from "lucide-react";
 const Parallax = ({language}) => {
     return (
         <section 
-            className="relative pt-24 z-2 bg-[#271f31] w-screen h-screen"
+            className="relative pt-24 z-2 bg-[#271f31] w-full h-screen"
             style={{
                 backgroundImage:
                     "linear-gradient(120deg, #271f31 55%, #F8E559 100%)",

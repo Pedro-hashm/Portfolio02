@@ -13,7 +13,7 @@ const About = ({language}) => {
     }
 
     return (
-        <section className="flex flex-col items-center top-0 left-0 relative z-2 bg-[#1b1622] pt-48 w-screen h-[225vh]">
+        <section className="flex flex-col items-center top-0 left-0 relative z-2 bg-[#1b1622] pt-48 w-full min-h-[225vh]">
 
             <div className="mb-6 md:mb-8 border-b-3 border-[#ffc44d] pb-2 w-[85%] md:w-[30%]">
 
@@ -189,7 +189,7 @@ const About = ({language}) => {
                 </div>
             </div>
 
-            <div className="p-6 bg-[#100e14] w-screen flex justify-center items-center">
+            <div className="p-6 bg-[#100e14] w-full flex justify-center items-center">
                 <span className="text-center text-[0.8rem] pb-6">© 2025 Pedro Vieira. All rights reserved.</span>
             </div>
 

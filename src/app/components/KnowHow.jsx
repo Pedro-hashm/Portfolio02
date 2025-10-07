@@ -5,19 +5,19 @@ const KnowHow = ({language}) => {
 
     return (
         <section 
-            className="flex flex-col justify-center items-center top-0 left-0 z-1 bg-[#1b1622] w-screen h-screen fixed"
+            className="flex flex-col justify-center items-center top-0 left-0 z-1 bg-[#1b1622] w-full h-screen fixed"
             style={{
                 backgroundImage: "linear-gradient(120deg, #1b1622 55%, #F8E559 200%)",
                 backgroundSize: "200% 200%",
                 animation: "movingGradient 12s ease-in-out infinite",
             }} 
         >
-            <div className="flex flex-col justify-center items-center mt-14">
+            <div className="flex flex-col justify-center items-center mt-19 gap-2">
                 <h1 className="text-[1.2rem] md:text-2xl text-center font-light">
                     {language === "pt" ? "TECNOLOGIAS EM MEU KNOW-HOW:" : "TECHNOLOGIES IN MY KNOW-HOW:"}
                 </h1>
 
-                <div className="flex flex-row justify-center flex-wrap gap-6 p-7 md:gap-12 md:p-14">
+                <div className="flex flex-row justify-center flex-wrap gap-6 p-7 [@media(max-width:384px)]:p-[0] md:gap-12 md:p-14">
 
                     <KnowObj title={"HTML5"} imgUrl={"https://cdn1.iconfinder.com/data/icons/programing-development-7/24/html_html5_web_programing_developer-512.png"}></KnowObj>
                     <KnowObj title={"CSS3"} imgUrl={"https://static.vecteezy.com/system/resources/previews/066/386/006/non_2x/the-css-logo-icon-free-png.png"}/>

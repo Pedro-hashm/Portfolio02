@@ -9,7 +9,7 @@ const KnowObj = ({title, imgUrl}) => {
             <img
                 src={imgUrl}
                 alt={title}
-                className="w-full h-full object-contain md:grayscale hover:grayscale-0 transition duration-300"
+                className="w-full h-full object-contain md:grayscale hover:grayscale-0 transition duration-300 max-w-[80px]"
             />
         </div>
         <span className="text-[0.9rem] md:text-[1.1rem] font-thin">
@@ -18,4 +18,4 @@ const KnowObj = ({title, imgUrl}) => {
     </div>
 )}
 
-export default KnowObj;
+export default KnowObj; 
