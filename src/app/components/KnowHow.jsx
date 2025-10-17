@@ -17,7 +17,7 @@ const KnowHow = ({language}) => {
                     {language === "pt" ? "TECNOLOGIAS EM MEU KNOW-HOW:" : "TECHNOLOGIES IN MY KNOW-HOW:"}
                 </h1>
 
-                <div className="flex flex-row justify-center flex-wrap gap-6 p-7 [@media(max-width:384px)]:p-[0] md:gap-12 md:p-14">
+                <div className="flex flex-row justify-center flex-wrap gap-6 px-7 [@media(max-width:384px)]:p-[0] md:gap-12 md:p-14">
 
                     <KnowObj title={"HTML5"} imgUrl={"https://cdn1.iconfinder.com/data/icons/programing-development-7/24/html_html5_web_programing_developer-512.png"}></KnowObj>
                     <KnowObj title={"CSS3"} imgUrl={"https://static.vecteezy.com/system/resources/previews/066/386/006/non_2x/the-css-logo-icon-free-png.png"}/>
