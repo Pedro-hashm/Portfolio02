@@ -5,7 +5,7 @@ const KnowObj = ({title, imgUrl}) => {
 
     return (
     <div className="flex flex-col items-center justify-center transform transition duration-300 hover:scale-110 gap-0 md:gap-4">
-        <div className="w-12 h-12 md:w-18 md:h-18 overflow-hidden">
+        <div className="w-12 h-8 md:w-18 md:h-18 overflow-hidden">
             <img
                 src={imgUrl}
                 alt={title}
