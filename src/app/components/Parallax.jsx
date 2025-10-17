@@ -44,19 +44,19 @@ const Parallax = ({language}) => {
                     <div className="flex flex-row items-center">
                         <CheckCircle className={`absolute ${language == "pt" ? "translate-x-[2rem]" : "translate-x-[3.2rem] "} hide-on-mobile w-5 h-5 text-[#F8E559] mr-2 md:translate-x-[-2rem] md:relative"`} strokeWidth={2} />
                         <span className="flex-1 text-[1.2rem] text-white text-center md:text-left">
-                            {language == "pt" ? "Desenvolvedor FullStack" : "FullStack Developer"}
+                            {language == "pt" ? "Desenvolvedor FullStack hide-on-desktop" : "FullStack Developer"}
                         </span>
-                        <CheckCircle className="text-[#F8E559]"></CheckCircle>
+                        <CheckCircle className="text-[#F8E559] hide-on-desktop"></CheckCircle>
                     </div>
                     <div className="flex flex-row items-center">
                         <CheckCircle className={`absolute ${language == "pt" ? "translate-x-[-1rem]" : "translate-x-[1.65rem]"} hide-on-mobile w-5 h-5 text-[#F8E559] mr-2 md:translate-x-[-2rem] md:relative"`} strokeWidth={2} />
                         <span className="flex-1 text-[1.2rem] text-white text-center md:text-left"> {language == "pt" ? "Apaixonado por resolver problemas" : "Passionate problem solver" } </span>
-                        <CheckCircle className="text-[#F8E559]"></CheckCircle>
+                        <CheckCircle className="text-[#F8E559] hide-on-desktop"></CheckCircle>
                     </div>
                     <div className="flex flex-row items-center">
                         <CheckCircle className={`absolute ${language == "pt" ? "translate-y-[-0.8rem] translate-x-[0.6rem]" : "translate-y-[-0.9rem] translate-x-[0rem]"} hide-on-mobile w-5 h-5 text-[#F8E559] mr-2 md:translate-x-[-2rem] md:translate-y-[0.1rem] md:relative`} strokeWidth={2} />
                         <span className="flex-1 text-[1.2rem] text-white text-center md:text-left md:translate-x-[-1.8rem]"> {language == "pt" ? "Amo trabalhar em um time com diferentes talentos" : "Love working in teams with diverse skill sets" } </span>
-                        <CheckCircle className="text-[#F8E559]"></CheckCircle>
+                        <CheckCircle className="text-[#F8E559] hide-on-desktop"></CheckCircle>
                     </div>
                 </div>
 

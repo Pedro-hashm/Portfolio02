@@ -26,6 +26,16 @@ html, body {
   }
 }
 
+.hide-on-desktop {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .hide-on-desktop {
+    display: block;
+  }
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
