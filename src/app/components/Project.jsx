@@ -4,7 +4,7 @@ import { Play, Github } from 'lucide-react';
 const Project = ({img, title, description, demo, rep, tags}) => {
 
     return (
-        <div className="flex flex-col px-12 py-6 md:p-2">
+        <div className="flex flex-col px-20 py-6 md:p-2">
 
             <div className='flex flex-col p-2 max-w-md w-full'>
                 <img

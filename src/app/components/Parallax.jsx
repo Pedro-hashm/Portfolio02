@@ -55,7 +55,7 @@ const Parallax = ({language}) => {
                     </div>
                     <div className="flex flex-row items-center">
                         <CheckCircle className={`absolute ${language == "pt" ? "translate-y-[-0.8rem] translate-x-[0.6rem]" : "translate-y-[-0.9rem] translate-x-[0rem]"} hide-on-mobile w-5 h-5 text-[#F8E559] mr-2 md:translate-x-[-2rem] md:translate-y-[0.1rem] md:relative`} strokeWidth={2} />
-                        <span className="flex-1 text-[1.2rem] text-white text-center md:text-left md:translate-x-[-1.8rem]"> {language == "pt" ? "Aprendo rápido! Em busca de oportunidades" : "Fast learner, in search of valuable opportunities" } </span>
+                        <span className="flex-1 text-[1.2rem] text-white text-center md:text-left md:translate-x-[-1.8rem]"> {language == "pt" ? "Amo trabalhar em um time com diferentes talentos" : "Love working in teams with diverse skill sets" } </span>
                         <CheckCircle className="text-[#F8E559]"></CheckCircle>
                     </div>
                 </div>
