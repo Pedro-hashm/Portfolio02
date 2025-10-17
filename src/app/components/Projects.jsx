@@ -10,7 +10,7 @@ const Projects = ({language}) => {
     return (
         <section className="flex flex-col items-center top-0 left-0 pt-48 relative z-2 bg-[#1b1622] w-full min-h-screen">
             <div className="mb-6 md:mb-8 border-b-3 border-[#ffc44d] pb-2 w-[85%] md:w-[30%] justify-self-center">
-                <h1 className={`${inter.className} text-[3.5rem] md:text-[5.5rem] font-bold bg-gradient-to-r from-[#ffc44d] to-[#FFE3A9] bg-clip-text text-transparent text-center`}>{language === "pt" ? "PROJETOS" : "PROJECTS"}</h1>
+                <h1 className={`${inter.className} text-[3.0rem] md:text-[5.5rem] font-bold bg-gradient-to-r from-[#ffc44d] to-[#FFE3A9] bg-clip-text text-transparent text-center`}>{language === "pt" ? "PROJETOS" : "PROJECTS"}</h1>
             </div>
 
             <span className="mb-3 text-center text-[1rem] md:text-[1.2rem] px-2">{language === "pt" ? "Alguns dos projetos pessoais, freelances, ou outros em que desenvolvi." : "Some personal, freelancing or other projects i developed."}</span>
