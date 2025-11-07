@@ -139,11 +139,11 @@ const Projects = ({ language = "en" }) => {
             </span>
 
             {/* Projects grid with staggered animation */}
-            <div className="flex flex-row flex-wrap justify-center px-12 mx-12 items-start gap-8 relative z-10">
+            <div className="flex flex-row flex-wrap justify-center items-start gap-8 relative z-10">
                 {projectsData.map((project, index) => (
                     <div
                         key={index}
-                        className={`transition-all duration-700 px-12 mx-12 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
+                        className={`transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
                         style={{ transitionDelay: `${(index + 1) * 200}ms` }}
                     >
                         <Project {...project} />

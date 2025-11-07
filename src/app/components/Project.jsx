@@ -3,18 +3,18 @@ import { Play, Github, Linkedin } from 'lucide-react';
 
 const Project = ({img, title, description, demo, rep, link, tags}) => {
     return (
-        <div className="flex flex-col bg-slate-100 rounded-2xl overflow-hidden px-12 mx-12 shadow-md w-[320px] h-[520px]">
+        <div className="flex flex-col bg-slate-100 rounded-2xl overflow-hidden shadow-md w-[320px] h-[520px]">
             {/* Wrapper da imagem com proporção 1475x1008 */}
             <div className="relative w-full pt-[68.3%] bg-gray-200">
                 <img
                     src={img}
                     alt={title}
-                    className="absolute top-0 px-12 mx-12 left-0 w-full h-full object-cover"
+                    className="absolute top-0 left-0 w-full h-full object-cover"
                 />
             </div>
 
             {/* Corpo do card com layout fixo */}
-            <div className="flex flex-col justify-between flex-1 px-12 py-4 mx-8">
+            <div className="flex flex-col justify-between flex-1 px-6 py-4">
                 <div>
                     <h3 className="text-slate-800 font-bold text-[1.2rem] leading-tight">{title}</h3>
                     <p className="text-slate-900 mt-3 text-[0.95rem] line-clamp-5 overflow-hidden">
