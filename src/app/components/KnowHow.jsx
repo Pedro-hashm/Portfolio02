@@ -26,7 +26,7 @@ const KnowHow = ({language}) => {
                     <KnowObj title={"React"} imgUrl={"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/512px-React-icon.svg.png"}/>
                     <KnowObj title={"Next.js"} imgUrl={"https://img.icons8.com/fluent-systems-filled/512/EBEBEB/nextjs.png"}/>
                     <KnowObj title={"Tailwind CSS"} imgUrl={"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2560px-Tailwind_CSS_Logo.svg.png"}/>
-                    <KnowObj title={"Bootstrap"} imgUrl={"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/2560px-Bootstrap_logo.svg.png"}/>
+                    <KnowObj title={"AWS"} imgUrl={"https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/2560px-Amazon_Web_Services_Logo.svg.png"}/>
                     <KnowObj title={"Shopify"} imgUrl={"https://cdn.iconscout.com/icon/free/png-256/free-shopify-226579.png?f=webp"}/>
                     <KnowObj title={"Meta Ads"} imgUrl={"https://upload.wikimedia.org/wikipedia/commons/0/05/Meta_Platforms_Inc._logo_%28cropped%29.svg"}/>
                     <KnowObj title={"TikTok Ads"} imgUrl={"https://windsor.ai/wp-content/uploads/2021/06/645a617d56b22f6589338368_6452937893cd842c9881c96b_tiktok_icon.png"}/>

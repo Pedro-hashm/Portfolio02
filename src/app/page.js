@@ -23,13 +23,16 @@ export default function Home() {
           <Parallax language={language}/>
           
           {/* Seção 2: O contêiner que define a duração do scroll */}
+          <div id='knowhow'></div>
           <div className="relative h-[200vh]">
             <KnowHow language={language}/>
           </div>
           
+          <div id='projetos'></div>
           {/* Seção 3: Aparece no final */}
           <Projects language={language}/>
 
+          <div id='sobre'></div>
           {/* Seção 4: Aparece no final */}
           <About language={language}/>
 
