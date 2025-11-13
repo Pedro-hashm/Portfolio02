@@ -96,7 +96,7 @@ const About = ({ language }) => {
                         </p>
 
                         {/* --- Link "Contate-me" --- */}
-                        <a href="#contact" rel="noopener noreferrer" className="flex flex-row gap-2 justify-center py-5 pb-48 md:pb-14 md:justify-start md:px-14 items-center group cursor-pointer w-fit">
+                        <a href="#contact" rel="noopener noreferrer" className="flex ml-[35%] md:ml-0 lg:ml-0 flex-row gap-2 justify-center py-5 pb-48 md:pb-14 md:px-14 items-center group cursor-pointer w-fit">
                             <Mail className="w-6 flex items-center justify-center p-[0.1rem] transition-all duration-300 ease-in-out transform group-hover:scale-110 group-hover:text-[#ffc44d]" />
                             <span className="text-white transition-all duration-300 ease-in-out group-hover:text-[#ffc44d]">
                                 {language === "pt" ? "Contate-me" : "Contact-me"}
